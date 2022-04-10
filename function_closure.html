@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>클로저</title>
+		<style>
+			.button {
+        background-color: #000;
+        border: none;
+        color: #fff;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+			}
+			p {
+        font-size: 64px;
+        text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+    <!-- 버튼 클릭시 클로저 카운팅 -->
+    <h3>버튼 클릭시 클로저 카운팅</h3>
+    <button id="btnView" class="button">+</button>
+    <p id="cntView">0</p>
+
+    <hr/>
+
+    <!-- li 리스트 태그에서의 클로저와 let -->
+    <h3>li 리스트 태그에서의 클로저와 let</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Node.js</li>
+    </ul>
+
+    <hr/>
+
+    <!-- 리스트 함수로 만들어 자동화하기 -->
+    <h3>리스트 함수로 만들어 자동화하기</h3>
+    <div id="jsList">
+      <!-- 자바스크립트를 이용하여 이 내부에 li 태그들을 삽입한다. -->
+    </div>
+		<script src="./function_closure.js"></script>
+	</body>
+</html>

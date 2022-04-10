@@ -11,4 +11,7 @@ ECMA-262 5판은 2009년 12월에 출판되었다.
 지금은 익숙하게 사용하고 있는 class, 모듈, 제너레이터, 화살표 함수, let과 const 키워드 등의 굵직한 문법들은 ES6에서 처음 정의되었다.   
 각 판에서 추가된 주요 문법을 요약하면 다음과 같다.   
    
-![ES6](https://user-images.githubusercontent.com/46395776/151681631-60d30ec6-3297-494d-9aed-6e0c563656ec.png)
+![ES6](https://user-images.githubusercontent.com/46395776/151681631-60d30ec6-3297-494d-9aed-6e0c563656ec.png)   
+   
+# 관련 교육 수료증
+![모던-자바스크립트-고급-part-1](https://user-images.githubusercontent.com/46395776/162627920-74534941-d900-4522-a4c5-a33974f07143.png)

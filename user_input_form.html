@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>사용자 입력 폼과 노드 추가</title>
+		<script src="./user_input_form.js"></script>
+	</head>
+	<body>
+    <form>
+      <label for="user_name">수강생 이름</label> : <input type="text" id="user_name" size="50"><br>
+      <label for="user_home">수강생 홈피</label> : <input type="text" id="user_home" size="50"><br><br>
+
+      <input type="button" id="btn" value="사용자 추가하기">
+    </form>
+
+    <br>
+    <!-- '사용자 추가하기' 버튼을 클릭하면 입력한 사용자 정보가 여기에 추가되도록 구현한다. -->
+    <div id="memberList"></div>
+  </body>
+</html>

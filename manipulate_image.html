@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<title>작은 이미지 클릭시 큰 이미지로 변경하기</title>
+    <style>
+      .pic-box1 > div > div > img {
+        width: 99%;
+        height: 300px;
+      }
+      .pic-box1 img {
+        /* 
+          브라우저 사이즈에 따라 최대 이미지 크기가 같이 늘려지느냐 아니냐의 차이 
+          max-width는 컨테이너가 커져도 이미지가 갖고 있는 최대 사이즈를 넘어서지 않는다.
+          예를 들어, 이미지가 100px인데, 컨테이너를 늘려서 200px이 되어도 100px에서 커짐이 멈춘다.
+        */
+        max-width: 100%;
+      }
+      .pic-box2 {
+        /* 컨테이너 중앙 정렬 트릭 */
+        margin: 0 auto;
+        width: 50%;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      li {
+        float: left;
+        width: 24%;
+        margin-right: 1%;
+        cursor: pointer;
+        font-size: 0;
+      }
+      li > img {
+        width: 100%;
+        height: 50px;
+      }
+      #big_img {
+        padding-top: 6px;
+      }
+    </style>
+	</head>
+	<body>
+    <div class="pic-box1">
+      <div class="pic-box2">
+        <ul>
+          <li><img src="./img/풍경1.jpg" alt="풍경1" class="small_img" data-image="./img/풍경1.jpg"></li>
+          <li><img src="./img/풍경2.jpeg" alt="풍경2" class="small_img" data-image="./img/풍경2.jpeg"></li>
+          <li><img src="./img/풍경3.jpg" alt="풍경3" class="small_img" data-image="./img/풍경3.jpg"></li>
+          <li><img src="./img/풍경4.jpg" alt="풍경4" class="small_img" data-image="./img/풍경4.jpg"></li>
+        </ul>
+        <div>
+          <img src="./img/물음표.jpg" alt="변경되는 이미지 영역" id="big_img">
+        </div>
+      </div>
+    </div>
+
+    <!--  
+      script 삽입!
+      head 태그 내에 삽입할 수도 있지만, 지금처럼 body 태그 내에 삽입할 수도 있다.
+
+      - head 태그 내에 삽입하게 되면 window.onload 내에 dom에 대한 이벤트 등록을 해야 한다.
+      바로 dom 접근이 불가하기 때문이다.
+
+      - body 태그 내에 삽입하게 되면 dom들이 렌딩되고 난 후에 스크립트가 실행되므로 
+      바로 dom에 접근하여 dom에 관한 이벤트 등록 로직을 짤 수 있다.
+    -->
+    <script src="./manipulate_image.js"></script>
+  </body>
+</html>

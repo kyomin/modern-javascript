@@ -16,4 +16,6 @@ ECMA-262 5판은 2009년 12월에 출판되었다.
 # 관련 교육 수료증
 ![모던-자바스크립트-고급-part-1](https://user-images.githubusercontent.com/46395776/162627920-74534941-d900-4522-a4c5-a33974f07143.png)   
 
-![모던-자바스크립트-고급-part-2](https://user-images.githubusercontent.com/46395776/163468558-50ae8403-fc1e-4d44-9db9-71201e3e9591.png)
+![모던-자바스크립트-고급-part-2](https://user-images.githubusercontent.com/46395776/163468558-50ae8403-fc1e-4d44-9db9-71201e3e9591.png)   
+
+![모던-자바스크립트-고급-part-3](https://user-images.githubusercontent.com/46395776/166206706-1b878749-6826-49aa-8893-240c6dd74ab7.png)
